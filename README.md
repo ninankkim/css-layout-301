@@ -4,6 +4,8 @@ This is an exercise to hone your layout skills 🗡
 
 Take a look at the following projects, attempt the primary mockup for both exercises, and then if you have time, go back and complete the bonus mockup.
 
+> Note: Nothing is linked yet. You have all the files you need, but none of them are connected. Make sure you `<link>` your CSS file, and use the right path in the `href` of your `<img>`'s.
+
 ## Part 1 - Google Layout
 
 Using the mockup below, attempt to recreate the Google Homepage. https://www.google.com/
