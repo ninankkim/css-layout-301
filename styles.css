@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    /* It sets the total width and height being calculated. */
+}
+body {
+    margin: 0;
+    /* The center body. */
+    background-color: white;
+}
+.logo {
+    margin: 230px auto 0 auto;
+    /* The first number refers to the top, moving image down. */
+    width: 500px;
+    /* It changes image size. */
+}
+.logo img {
+    width: 100%;
+    /*Also somehow changes image size? */
+}
+.search-bar {
+    display: flex;
+    /* The flex display option is being used. */
+    width: 600px;
+    /* The width of the image. */
+    border: 1px solid lightgray;
+    /* Adds size to the border. */
+    border-radius: 50px;
+    /* The edges become curved like in a circle. */
+    margin: 25px auto;
+    /* Adds distance from top container. */
+    justify-content: space-between;
+    /* It creates equal distance between container. */
+}
+.search-bar input {
+    flex-grow: 1;
+    /* Advances width of input container. */
+}
+.search-bar input:focus {
+    border: none;
+    /* NO CLUE, WE DIDN'T FIGURE IT OUT. */
+}
+.icon-search {
+    margin: 24px;
+    /* Adding size to container of search image. */
+}
+.icon.mic {
+    width: 24px;
+    height: 24px;
+    margin: 24px;
+    /* The container position at 24 px. */
+}
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+.search-buttons button {
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+    color: darkgrey;
+    border-radius: 10px;
+    margin: 0 10px;
+}
